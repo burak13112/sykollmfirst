@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Message, ChatSession, ModelConfig, Theme } from './types';
 import { streamResponse } from './services/sykoService';
 import { Icons } from './components/Icon';
-import { Button } from './components/Button';
 import { ModelSelector } from './components/ModelSelector';
 import { ChatMessage } from './components/ChatMessage';
 
